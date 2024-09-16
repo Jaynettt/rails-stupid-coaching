@@ -13,3 +13,86 @@
  *= require_tree .
  *= require_self
  */
+a {
+text-decoration: none;
+border: solid;
+border-radius: 8px;
+color:rgb(29, 20, 20);
+margin: 10%;
+}
+
+.action{
+  margin-left: 280px;
+  margin-top: 200px;
+  
+}
+
+.action h5{
+color: beige;
+font-family: fantasy;
+text-align: center;
+}
+
+.card{
+  background-image: url("wade-austin-ellis-sf0qE4XehbI-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 200px;
+  border-radius: 20px;
+}
+ .question{
+box-sizing: border-box;
+width: 50%;
+border: 5px solid ;
+margin-left: 10px;
+border-radius: 6px;
+box-shadow: 1px 1px #888888;
+
+
+}
+
+body{
+  background-image:url("nick-design-DMkAJgZbbUE-unsplash.jpg") ;
+}
+
+.answer{
+  box-sizing: border-box;
+width: 50%;
+border: 5px solid ;
+margin-left: 10px;
+border-radius: 6px;
+box-shadow: 1px 1px #888888;
+
+}
+
+div{
+margin-top: 50px;
+}
+
+.container{
+  border: 30px solid;
+  background-color: transparent
+}
+
+input{
+  background-color: rgb(28, 27, 27);
+  padding: 3px 3px;
+  box-sizing: border-box;
+  margin-left: 100px ;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: beige;
+  border: 2px solid white;
+  box-shadow:  black;
+  
+}
+
+.container a{
+  color: beige;
+  margin-left: 0 auto ;
+  text-decoration: none;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+

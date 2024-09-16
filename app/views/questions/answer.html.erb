@@ -1,0 +1,14 @@
+<%# <form action="/answer" method="get">
+<input type="text" name="question" placeholder="answer">
+</form> %>
+<div class="question border p-3 mb-2 bg-light text-dark">
+<h5> <%= @question %> <br></h5>
+-You
+</div>
+
+<div class="answer border p-3 mb-2 bg-dark text-white  ">
+<h5><%= @answer %> <br></h5>
+-Your coach
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
